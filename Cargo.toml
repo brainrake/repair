@@ -1,0 +1,14 @@
+[package]
+name = "repair"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bluer = { version = "0.16.1", features = ["bluetoothd"] }
+env_logger = "0.10.1"
+futures = "0.3.29"
+tokio = "1.34.0"
+
+[[bin]]
+name = "connect-all"
+path = "main.rs"
