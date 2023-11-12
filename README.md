@@ -6,4 +6,5 @@ Useful for connecting multiple (unpaired) game controllers.
 
 2. Run this app with bluetooth addresses as arguments
 ```
-nix run 'github:brainrake/repair' E4:17:D8:XX:XX:XX E4:17:D8:XX:XX:XX ```
+nix run 'github:brainrake/repair' E4:17:D8:XX:XX:XX E4:17:D8:XX:XX:XX
+```
